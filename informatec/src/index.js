@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 //Importación framework materialize
 import 'materialize-css/dist/css/materialize.min.css'
+import 'materialize-css/dist/js/materialize'
 
 ReactDOM.render(
   <React.StrictMode>
