@@ -8,8 +8,13 @@ import reportWebVitals from './reportWebVitals';
 import 'materialize-css/dist/css/materialize.min.css'
 import 'materialize-css/dist/js/materialize'
 
+import 'jquery/dist/jquery'
 ReactDOM.render(
   <React.StrictMode>
+          <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        </link>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

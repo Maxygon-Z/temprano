@@ -7,7 +7,6 @@ const User = new Schema({
     correo: {type: String, required: true},
     matricula: String,
 
-
     createdAt:{
         type: Date, default: Date.now
     }
@@ -15,4 +14,4 @@ const User = new Schema({
 
 const user= mongoose.model('/user', User);
 
-export default User;
+export default user;

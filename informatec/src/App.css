@@ -1,8 +1,22 @@
-/*.App {
-  text-align: center;
-}*/
+#navbar{
+  background-color: #691C32;
+}
 
+#send{
+  background-color: #BC955C;
+}
 
+#logo{
+  weight: 180px;
+  height: 50px;
+}
+
+/*
+  #691C32
+  #9F2241
+  #DDC93A
+  #BC955C
+*/
 
 .App-logo {
   height: 40vmin;

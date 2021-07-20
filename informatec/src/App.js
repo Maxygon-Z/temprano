@@ -1,15 +1,11 @@
 import './App.css';
-
-import User from './components/user'
-import Carr from './components/carrera'
+import Rutas from './rutas/RutasC'
 
 
 function App() {
   return (
     <div className="App">
-     <User/>
-
-     <Carr/>
+     < Rutas/>
     </div>
   );
 }
