@@ -3,14 +3,12 @@ import model from '../model'
 export default{
     agregar: async(req, res, next)=>{
         try{
-            const {nombre, apellidos, correo, matricula,password}=req.body;
+            const {nombre, apellidos, correo}=req.body;
 
             const personas=new model.User({
                 nombre,
                 apellidos,
-                correo,
-                matricula,
-                password
+                correo
             });
 
             const registro =await personas.save();
@@ -67,10 +65,10 @@ export default{
     },
     actualizar: async(req, res, next)=>{
         try {
-            const {nombre, apellidos, correo, matricula, password}=req.body
+            const {nombre, apellidos, correo}=req.body
             
             const actualizarPersona={
-                nombre,apellidos,correo, matricula, password
+                nombre,apellidos,correo
             }
             const datosactuales = await model.User.findByIdAndUpdate(req.params.id, actualizarPersona)
             res.json(datosactuales)
