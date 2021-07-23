@@ -37,6 +37,16 @@ function UsuarioForm() {
  
  const onClick=(e)=>{
   e.preventDefault();
+  alert(
+    "Los datos son:" +
+      values.nombre +
+      " " +
+      values.apellidos +
+      " " +
+      values.correo +
+      " " +
+      values.matricula
+  );
   guardarUser();
   setValues(variablesInicio)
 } 

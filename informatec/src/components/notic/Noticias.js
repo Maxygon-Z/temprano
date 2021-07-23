@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import M from "materialize-css";
+import React from "react"; //, { useEffect }
+//import M from "materialize-css";
 import not1 from '../../sources/noticias/notic5.jpeg'
 import not2 from '../../sources/noticias/notic.jpeg'
 import not3 from '../../sources/noticias/notic1.jpeg'
 
 function Noticias() {
-  const FAB = () => {
+ /* const FAB = () => {
     var elems = document.querySelectorAll('.fixed-action-btn');
     var instances = M.FloatingActionButton.init(elems, {
       toolbarEnabled: true
@@ -14,7 +14,7 @@ function Noticias() {
 
   useEffect(() => {
     FAB();
-  }, []);
+  }, []);*/
 
   return (
     <div>
@@ -26,7 +26,7 @@ function Noticias() {
             </div>
             <div className="card-content">
               <p>Reunión con integrantes del Cuerpo Académico “Desarrollo Agroindustrial Sustentable del Sureste” y el Coordinador Territorial de Sembrando Vida, Xpujil, Campeche</p>
-              <a className="waves-effect waves-light btn-black datepicker"><i className="medium material-icons">event_available</i></a>
+              <a href="#!" className="waves-effect waves-light btn-black datepicker"><i className="medium material-icons">event_available</i></a>
             </div>
             {/*Aquí debería ser un solo menú desplegable pero usar FAB no me sirvió */}
             <div className="card-action">
@@ -62,7 +62,7 @@ function Noticias() {
             </div>
             <div className="card-content">
               <p>Aquí hay información del evento en cuestión</p>
-              <a className="waves-effect waves-light btn-black datepicker"><i className="medium material-icons">event_available</i></a>
+              <a href="#!" className="waves-effect waves-light btn-black datepicker"><i className="medium material-icons">event_available</i></a>
 
             </div>
             {/*Aquí debería ser un solo menú desplegable pero usar FAB no me sirvió */}
@@ -99,7 +99,7 @@ function Noticias() {
             </div>
             <div className="card-content">
               <p>Aquí hay información del evento en cuestión</p>
-              <a className="waves-effect waves-light btn-black datepicker"><i className="medium material-icons">event_available</i></a>
+              <a href="#!" className="waves-effect waves-light btn-black datepicker"><i className="medium material-icons">event_available</i></a>
             </div>
             {/*Aquí debería ser un solo menú desplegable pero usar FAB no me sirvió */}
             <div className="card-action">
